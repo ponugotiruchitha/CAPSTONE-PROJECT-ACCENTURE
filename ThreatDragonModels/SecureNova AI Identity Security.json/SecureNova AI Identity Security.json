@@ -5,7 +5,7 @@
   "summary": {
     "title": "SecureNova AI Identity Security",
     "owner": "AI Security Analyst",
-    "description": "SecureNova Inc. operates an AI-powered customer service platform using Auth0 for identity management. Authenticated human users interact with an AI agent that invokes internal REST APIs, retrieves knowledge through a RAG pipeline, and calls MCP server tools. The threat model evaluates authentication, authorization, credential exposure, identity spoofing, privilege escalation, prompt injection, RAG poisoning, and audit risks.",
+    "description": "SecureNova Inc. operates an AI-powered customer service platform using Auth0 for identity management. Authenticated human users interact with an AI agent that invokes internal REST APIs, retrieves knowledge through a RAG pipeline, and calls MCP server tools. The platform contains human and non-human identities including users, AI agents, OAuth M2M clients, LLM API keys, RAG service identities, and MCP server identities. The threat model evaluates authentication, authorization, credential exposure, identity spoofing, privilege escalation, prompt injection, RAG poisoning, and audit risks.",
     "id": 0
   },
   "detail": {
@@ -114,12 +114,7 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
-              "crossingFlows": [
-                "f16151d9-6422-47b1-9cfe-ac3f65982fbf",
-                "af2c605c-edeb-45f0-803b-6df1a9c13d2a",
-                "4f57a34f-fcf1-4deb-8201-ce2daf5b9f37",
-                "ae4ab8ff-37c8-401a-bd48-bd4f2b250615"
-              ],
+              "crossingFlows": [],
               "containedElements": [
                 "039d2522-d600-4db2-8a1d-fe9d844457a3",
                 "b4493dfe-7394-4062-9467-05fd19546215",
@@ -216,19 +211,19 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "1d6ad6c5-9bb7-49cc-9cc1-16e46e5267b6"
+                  "id": "804fd901-1c89-48a0-ad06-34f545557f0a"
                 },
                 {
                   "group": "right",
-                  "id": "8c9765dc-5aff-4046-87b5-6f266328a421"
+                  "id": "eaa2551c-f0f6-48ff-bce4-06cc6d8d26c6"
                 },
                 {
                   "group": "bottom",
-                  "id": "7d1ec226-c5d2-4c71-b085-747b3c4b63e0"
+                  "id": "4b6ad67d-0f63-41ca-a36d-38fa7a6b128f"
                 },
                 {
                   "group": "left",
-                  "id": "30f968e5-ae2f-4f2b-8138-abbe1e7ba32a"
+                  "id": "b4bd72d3-0a5a-4bc4-9d25-e72f9caab147"
                 }
               ]
             },
@@ -333,19 +328,19 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "2761f336-61df-452c-94eb-97725054f261"
+                  "id": "9625089f-479e-46f0-a3a4-9d29e7b75c60"
                 },
                 {
                   "group": "right",
-                  "id": "ac7dea3a-ba78-4454-9072-c7b41acec38c"
+                  "id": "d1b28e43-eaaa-4d10-bd15-cc8aa394ad39"
                 },
                 {
                   "group": "bottom",
-                  "id": "a280974b-682d-426f-a23a-f3903b59a6fe"
+                  "id": "9359748f-4743-4a29-a525-edc023ae4734"
                 },
                 {
                   "group": "left",
-                  "id": "0ec9b6c5-c3f6-4d14-bf59-0c067ee3f2b8"
+                  "id": "626a0cf8-d5d0-4ca2-b99c-6e25e2fa0916"
                 }
               ]
             },
@@ -453,19 +448,19 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "079e41c6-808c-44c0-9fad-f2605c2c9bd1"
+                  "id": "9625089f-479e-46f0-a3a4-9d29e7b75c60"
                 },
                 {
                   "group": "right",
-                  "id": "e40bb379-ba7b-414c-951d-a23a44ecf395"
+                  "id": "d1b28e43-eaaa-4d10-bd15-cc8aa394ad39"
                 },
                 {
                   "group": "bottom",
-                  "id": "c16e4640-c219-4e2f-b0a2-d279921c8f46"
+                  "id": "9359748f-4743-4a29-a525-edc023ae4734"
                 },
                 {
                   "group": "left",
-                  "id": "325be163-ccf2-4b22-bf27-56c6ecb8248f"
+                  "id": "626a0cf8-d5d0-4ca2-b99c-6e25e2fa0916"
                 }
               ]
             },
@@ -573,19 +568,19 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "39f9998c-736f-492f-b244-37176a991563"
+                  "id": "9625089f-479e-46f0-a3a4-9d29e7b75c60"
                 },
                 {
                   "group": "right",
-                  "id": "29e5cbab-1fe0-4b3a-83ef-8138b410be95"
+                  "id": "d1b28e43-eaaa-4d10-bd15-cc8aa394ad39"
                 },
                 {
                   "group": "bottom",
-                  "id": "1dc1e34f-4fb5-42cc-9e0b-3533396b6378"
+                  "id": "9359748f-4743-4a29-a525-edc023ae4734"
                 },
                 {
                   "group": "left",
-                  "id": "4fe4ed18-6ddd-41f2-81f6-a341d72a8475"
+                  "id": "626a0cf8-d5d0-4ca2-b99c-6e25e2fa0916"
                 }
               ]
             },
@@ -693,19 +688,19 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "57356cb5-e3ea-42f1-a74d-1d64ceada85b"
+                  "id": "9625089f-479e-46f0-a3a4-9d29e7b75c60"
                 },
                 {
                   "group": "right",
-                  "id": "a53c9d5c-16a1-4737-a61e-e7360460bb5a"
+                  "id": "d1b28e43-eaaa-4d10-bd15-cc8aa394ad39"
                 },
                 {
                   "group": "bottom",
-                  "id": "91762b27-99a0-4703-96e7-ae873fa2466d"
+                  "id": "9359748f-4743-4a29-a525-edc023ae4734"
                 },
                 {
                   "group": "left",
-                  "id": "ca150b92-e4bb-453a-a8d5-0f0cfc2e423c"
+                  "id": "626a0cf8-d5d0-4ca2-b99c-6e25e2fa0916"
                 }
               ]
             },
@@ -813,19 +808,19 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "d82a95be-a8ad-43b8-90d7-b92baafab6ed"
+                  "id": "9625089f-479e-46f0-a3a4-9d29e7b75c60"
                 },
                 {
                   "group": "right",
-                  "id": "a157f36d-87ee-4694-b95b-3bfe78e21892"
+                  "id": "d1b28e43-eaaa-4d10-bd15-cc8aa394ad39"
                 },
                 {
                   "group": "bottom",
-                  "id": "b7ef2720-2ed1-47b4-91c0-9710bd362d79"
+                  "id": "9359748f-4743-4a29-a525-edc023ae4734"
                 },
                 {
                   "group": "left",
-                  "id": "d7bf32f0-dbc2-4a39-9716-b21b2e2ef07b"
+                  "id": "626a0cf8-d5d0-4ca2-b99c-6e25e2fa0916"
                 }
               ]
             },
@@ -843,7 +838,10 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            }
+            },
+            "children": [
+              "caae2ae5-a379-4de7-b5ff-8a3f59dd0185"
+            ]
           },
           {
             "position": {
@@ -933,19 +931,19 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "25a6caa7-b172-4078-a1de-04a82b5736f9"
+                  "id": "9625089f-479e-46f0-a3a4-9d29e7b75c60"
                 },
                 {
                   "group": "right",
-                  "id": "80e276d4-a3bf-4da9-a467-14f4d307a471"
+                  "id": "d1b28e43-eaaa-4d10-bd15-cc8aa394ad39"
                 },
                 {
                   "group": "bottom",
-                  "id": "80e3b19a-3630-419f-9340-a461e8ab19e3"
+                  "id": "9359748f-4743-4a29-a525-edc023ae4734"
                 },
                 {
                   "group": "left",
-                  "id": "ecbaf71a-1294-4e4c-91d3-7cfea9e575b3"
+                  "id": "626a0cf8-d5d0-4ca2-b99c-6e25e2fa0916"
                 }
               ]
             },
@@ -1053,19 +1051,19 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "5e1c2c43-8a8a-46de-89fb-b3ab610a44e6"
+                  "id": "804fd901-1c89-48a0-ad06-34f545557f0a"
                 },
                 {
                   "group": "right",
-                  "id": "bb4c5efd-f7f6-4913-aa37-8ae4651bce7a"
+                  "id": "eaa2551c-f0f6-48ff-bce4-06cc6d8d26c6"
                 },
                 {
                   "group": "bottom",
-                  "id": "67afe060-b6ed-4955-a6ec-65750790926b"
+                  "id": "4b6ad67d-0f63-41ca-a36d-38fa7a6b128f"
                 },
                 {
                   "group": "left",
-                  "id": "0fa6c54d-f5d9-4737-8918-0ce0a44dac29"
+                  "id": "b4bd72d3-0a5a-4bc4-9d25-e72f9caab147"
                 }
               ]
             },
@@ -1107,49 +1105,12 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": [
-                {
-                  "title": "OIDC Identity Spoofing",
-                  "type": "Spoofing",
-                  "modelType": "STRIDE",
-                  "number": 1,
-                  "threatId": "34e8088e-d78b-40d5-aa05-a9e6da9c9e79",
-                  "score": "9",
-                  "severity": "High",
-                  "status": "Open",
-                  "description": "An attacker may impersonate a legitimate user by abusing stolen, forged, or replayed OIDC authentication artifacts.",
-                  "mitigation": "Use Authorization Code Flow with PKCE, validate issuer/audience/signature/nonce, enforce MFA where appropriate, and reject expired or replayed tokens."
-                },
-                {
-                  "title": "OIDC Token Information Disclosure",
-                  "type": "Information Disclosure",
-                  "modelType": "STRIDE",
-                  "number": 2,
-                  "threatId": "c138c6f4-4231-45ad-9127-43f015fd8101",
-                  "score": "6",
-                  "severity": "Medium",
-                  "status": "Open",
-                  "description": "Access or identity tokens may be exposed through insecure browser storage, logs, URLs, or client-side telemetry.",
-                  "mitigation": "Use secure token handling, avoid sensitive tokens in URLs/logs, apply least-privilege scopes, and protect browser storage and transport with HTTPS."
-                },
-                {
-                  "title": "Authentication Service Denial of Service",
-                  "type": "Denial of Service",
-                  "modelType": "STRIDE",
-                  "number": 3,
-                  "threatId": "de773139-3c7c-457c-8b37-5cf02728dfdf",
-                  "score": "6",
-                  "severity": "Medium",
-                  "status": "Open",
-                  "description": "Repeated authentication requests or abuse of the login endpoint could degrade availability of the authentication service.",
-                  "mitigation": "Apply rate limiting, bot protection, anomaly detection, resilient authentication infrastructure, and monitoring for abnormal login traffic."
-                }
-              ],
+              "threats": [],
               "trustBoundaryIds": []
             },
             "labels": [
@@ -1158,11 +1119,11 @@
             "id": "5865fc0a-1c5c-49fb-b161-7a15a3fd313a",
             "source": {
               "cell": "ee5044e7-21e5-435d-ad29-2250d3924a3e",
-              "port": "8c9765dc-5aff-4046-87b5-6f266328a421"
+              "port": "eaa2551c-f0f6-48ff-bce4-06cc6d8d26c6"
             },
             "target": {
               "cell": "247b81bc-aed5-41de-a5b6-9912a61fc3d0",
-              "port": "0ec9b6c5-c3f6-4d14-bf59-0c067ee3f2b8"
+              "port": "626a0cf8-d5d0-4ca2-b99c-6e25e2fa0916"
             },
             "vertices": [
               {
@@ -1220,7 +1181,7 @@
             },
             "target": {
               "cell": "baaa9cd0-74c3-41c6-aaa9-2b51c7a23103",
-              "port": "ca150b92-e4bb-453a-a8d5-0f0cfc2e423c"
+              "port": "626a0cf8-d5d0-4ca2-b99c-6e25e2fa0916"
             }
           },
           {
@@ -1265,11 +1226,11 @@
             "id": "cdea20f4-ceb0-434a-916d-a2df24854303",
             "source": {
               "cell": "247b81bc-aed5-41de-a5b6-9912a61fc3d0",
-              "port": "a280974b-682d-426f-a23a-f3903b59a6fe"
+              "port": "9359748f-4743-4a29-a525-edc023ae4734"
             },
             "target": {
               "cell": "246f1d6d-0002-4a1d-a403-d3f5294d9921",
-              "port": "325be163-ccf2-4b22-bf27-56c6ecb8248f"
+              "port": "626a0cf8-d5d0-4ca2-b99c-6e25e2fa0916"
             },
             "vertices": [
               {
@@ -1329,7 +1290,7 @@
             },
             "target": {
               "cell": "81aad8e7-f67e-486c-ae10-c16aaee40184",
-              "port": "24e4a39f-7a31-402e-bc36-17f450e49adf"
+              "port": "a493e673-b10b-4168-aa39-1696d259bb4d"
             }
           },
           {
@@ -1377,7 +1338,7 @@
             },
             "target": {
               "cell": "47e2906e-c341-423b-a353-98b7e9954222",
-              "port": "4fe4ed18-6ddd-41f2-81f6-a341d72a8475"
+              "port": "626a0cf8-d5d0-4ca2-b99c-6e25e2fa0916"
             },
             "vertices": [
               {
@@ -1429,7 +1390,7 @@
             },
             "target": {
               "cell": "9d8b940a-5f96-4f6e-932e-bdca9322f49b",
-              "port": "441bfe1e-0438-4419-bf27-554aed024b6b"
+              "port": "63c6d14e-305a-4cd6-9f2a-232fc935016d"
             }
           },
           {
@@ -1477,7 +1438,7 @@
             },
             "target": {
               "cell": "71dba38c-7602-4dc9-b993-0515bb83c036",
-              "port": "d82a95be-a8ad-43b8-90d7-b92baafab6ed"
+              "port": "9625089f-479e-46f0-a3a4-9d29e7b75c60"
             },
             "vertices": [
               {
@@ -1578,19 +1539,19 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "4ea65675-1a5b-4312-ab80-cd56926a6909"
+                  "id": "9625089f-479e-46f0-a3a4-9d29e7b75c60"
                 },
                 {
                   "group": "right",
-                  "id": "d2fd360b-99d8-4dd3-874d-e7fd78ece421"
+                  "id": "d1b28e43-eaaa-4d10-bd15-cc8aa394ad39"
                 },
                 {
                   "group": "bottom",
-                  "id": "4772f435-f236-4ece-9c2f-fa12df639fd7"
+                  "id": "9359748f-4743-4a29-a525-edc023ae4734"
                 },
                 {
                   "group": "left",
-                  "id": "9c6276c1-e858-48d0-81f4-6654a3052a55"
+                  "id": "626a0cf8-d5d0-4ca2-b99c-6e25e2fa0916"
                 }
               ]
             },
@@ -1698,19 +1659,19 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "5b61869f-b5ef-43c5-aed1-9ca1bfc08832"
+                  "id": "9625089f-479e-46f0-a3a4-9d29e7b75c60"
                 },
                 {
                   "group": "right",
-                  "id": "c0934e58-303b-4de8-a265-6b134d29c210"
+                  "id": "d1b28e43-eaaa-4d10-bd15-cc8aa394ad39"
                 },
                 {
                   "group": "bottom",
-                  "id": "91b8e7f9-9d9a-4186-a4f3-24528cdbe41e"
+                  "id": "9359748f-4743-4a29-a525-edc023ae4734"
                 },
                 {
                   "group": "left",
-                  "id": "3cc9fc21-11f7-457b-9826-19a00cf91cc5"
+                  "id": "626a0cf8-d5d0-4ca2-b99c-6e25e2fa0916"
                 }
               ]
             },
@@ -1821,19 +1782,19 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "08ce794d-7ede-473d-81ad-53c4c6c9bcb0"
+                  "id": "63c6d14e-305a-4cd6-9f2a-232fc935016d"
                 },
                 {
                   "group": "right",
-                  "id": "c278e0c1-881f-4f1d-b7d2-ca4a4fc445c0"
+                  "id": "e20c4a29-1579-42d6-88a0-5b9864e7cede"
                 },
                 {
                   "group": "bottom",
-                  "id": "302adecf-018f-4051-9346-7be58c8ee75d"
+                  "id": "d2445bcf-e7ce-45eb-8597-677d36ec36a3"
                 },
                 {
                   "group": "left",
-                  "id": "24e4a39f-7a31-402e-bc36-17f450e49adf"
+                  "id": "a493e673-b10b-4168-aa39-1696d259bb4d"
                 }
               ]
             },
@@ -1945,19 +1906,19 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "441bfe1e-0438-4419-bf27-554aed024b6b"
+                  "id": "63c6d14e-305a-4cd6-9f2a-232fc935016d"
                 },
                 {
                   "group": "right",
-                  "id": "62b030d0-74d8-4c64-a9a0-a99f9a849284"
+                  "id": "e20c4a29-1579-42d6-88a0-5b9864e7cede"
                 },
                 {
                   "group": "bottom",
-                  "id": "bfcde6de-2ffd-4d4c-b880-601787f9bdf4"
+                  "id": "d2445bcf-e7ce-45eb-8597-677d36ec36a3"
                 },
                 {
                   "group": "left",
-                  "id": "1252ae3d-7129-432c-b5d2-b9b600a7fa8c"
+                  "id": "a493e673-b10b-4168-aa39-1696d259bb4d"
                 }
               ]
             },
@@ -1977,238 +1938,6 @@
               "storesInventory": false,
               "threats": []
             }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Scoped API Request",
-              "description": "AI agent/MCP server sends a scoped request through the OAuth M2M client for internal API access.",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": true,
-              "isPublicNetwork": false,
-              "protocol": "HTTPS",
-              "threats": [],
-              "trustBoundaryIds": [
-                "670e8212-3edb-42f5-9280-81a7f5fb34b5"
-              ]
-            },
-            "labels": [
-              "Scoped API Request"
-            ],
-            "id": "f16151d9-6422-47b1-9cfe-ac3f65982fbf",
-            "source": {
-              "cell": "71dba38c-7602-4dc9-b993-0515bb83c036",
-              "port": "a157f36d-87ee-4694-b95b-3bfe78e21892"
-            },
-            "target": {
-              "cell": "b4493dfe-7394-4062-9467-05fd19546215",
-              "port": "0fa6c54d-f5d9-4737-8918-0ce0a44dac29"
-            },
-            "vertices": [
-              [
-                650,
-                280
-              ],
-              [
-                700,
-                300
-              ]
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Authenticated API Call",
-              "description": "OAuth M2M client invokes protected internal REST APIs with a valid access token.",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": true,
-              "isPublicNetwork": false,
-              "protocol": "HTTPS",
-              "threats": [],
-              "trustBoundaryIds": [
-                "670e8212-3edb-42f5-9280-81a7f5fb34b5"
-              ]
-            },
-            "labels": [
-              "Authenticated API Call"
-            ],
-            "id": "af2c605c-edeb-45f0-803b-6df1a9c13d2a",
-            "source": {
-              "cell": "b4493dfe-7394-4062-9467-05fd19546215",
-              "port": "bb4c5efd-f7f6-4913-aa37-8ae4651bce7a"
-            },
-            "target": {
-              "cell": "039d2522-d600-4db2-8a1d-fe9d844457a3",
-              "port": "ecbaf71a-1294-4e4c-91d3-7cfea9e575b3"
-            },
-            "vertices": [
-              [
-                850,
-                300
-              ],
-              [
-                900,
-                250
-              ]
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Client Credentials",
-              "description": "OAuth M2M client requests an access token using the OAuth 2.0 client-credentials flow.",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": true,
-              "isPublicNetwork": false,
-              "protocol": "HTTPS",
-              "threats": [],
-              "trustBoundaryIds": [
-                "670e8212-3edb-42f5-9280-81a7f5fb34b5"
-              ]
-            },
-            "labels": [
-              "Client Credentials"
-            ],
-            "id": "4f57a34f-fcf1-4deb-8201-ce2daf5b9f37",
-            "source": {
-              "cell": "b4493dfe-7394-4062-9467-05fd19546215",
-              "port": "bb4c5efd-f7f6-4913-aa37-8ae4651bce7a"
-            },
-            "target": {
-              "cell": "0b60bb44-b3e9-46d7-a12d-8852dcf263a9",
-              "port": "9c6276c1-e858-48d0-81f4-6654a3052a55"
-            },
-            "vertices": [
-              [
-                850,
-                350
-              ],
-              [
-                930,
-                360
-              ]
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Tool Request",
-              "description": "Internal REST APIs invoke authorized MCP tools to perform the requested operation.",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": true,
-              "isPublicNetwork": false,
-              "protocol": "HTTPS",
-              "threats": [],
-              "trustBoundaryIds": [
-                "670e8212-3edb-42f5-9280-81a7f5fb34b5"
-              ]
-            },
-            "labels": [
-              "Tool Request"
-            ],
-            "id": "ae4ab8ff-37c8-401a-bd48-bd4f2b250615",
-            "source": {
-              "cell": "039d2522-d600-4db2-8a1d-fe9d844457a3",
-              "port": "80e276d4-a3bf-4da9-a467-14f4d307a471"
-            },
-            "target": {
-              "cell": "61ff0f63-972b-4ef3-8b8d-7fae84f87884",
-              "port": "3cc9fc21-11f7-457b-9826-19a00cf91cc5"
-            },
-            "vertices": [
-              [
-                1010,
-                250
-              ],
-              [
-                1060,
-                300
-              ]
-            ]
           }
         ],
         "description": "SecureNova AI identity data flow showing human authentication, Auth0, AI agent, LLM service, RAG pipeline, MCP server, internal APIs, vector database, and audit monitoring with trust boundaries."
@@ -2216,6 +1945,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "SecureNova Security Team",
-    "threatTop": 3
+    "threatTop": 0
   }
 }
