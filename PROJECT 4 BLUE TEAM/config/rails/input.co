@@ -1,0 +1,8 @@
+define flow check input
+  $allowed = execute self_check_input
+  if not $allowed
+    bot refuse to respond
+    stop
+
+define bot refuse to respond
+  "BLOCKED: Input guardrail detected a potentially malicious request."
